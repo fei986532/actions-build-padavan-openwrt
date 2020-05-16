@@ -10,12 +10,12 @@
 name: OpenWrt-CIk2pa1专版
 
 on:
-  push:
+ # push:
     branches: 
       - master
-  schedule:
-     - cron: 0 20 * * *
-  release:
+ # schedule:
+    # - cron: 0 20 * * *
+ # release:
      types: [published]
 
 jobs:
